@@ -20,7 +20,7 @@ public class A1Q1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    City wien = new City();
+        City wien = new City();
         Wall wall = new Wall(wien, 1, 1, Direction.NORTH);
         Wall wall1 = new Wall(wien, 1, 2, Direction.NORTH);
         Wall wall2 = new Wall(wien, 1, 2, Direction.EAST);
